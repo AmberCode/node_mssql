@@ -1,0 +1,24 @@
+{
+  "name": "node1name",
+  "version": "1.0.0",
+  "description": "Restful api",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dateformat": "^3.0.2",
+    "express": "^4.15.4",
+    "mssql": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Restfull"
+  ],
+  "author": "andriusu",
+  "license": "ISC"
+}
