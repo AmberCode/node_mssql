@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = (function () {
     const sql = require('mssql');
     const dateFormat = require('dateformat');
